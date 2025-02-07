@@ -86,10 +86,12 @@ h2 {
     display: flex;
     flex-direction: column;
     margin: auto;
-    width: 60%;
+    width: 50%;
 }
 
 #input-section input {
+    font: bold 2vw "Courier New", monospace;
+    text-align: center;
     background-color: #dcdcdc;
     padding: 0.5vw 1vw;
 }
