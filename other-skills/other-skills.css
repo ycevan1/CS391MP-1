@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Georgia", sans-serif;
+}
+
+#page-wrapper {
+    width: 80vw;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    padding: 1vh 1vw;
+    background-color: #131313;
+    color: white;
+}
+
+#container {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    width: 100%;
+    background-color: cornsilk;
+}
+
+nav {
+    width: 30%;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: saddlebrown;
+    font-size: calc(2px + 2vw);
+    text-align: center;
+    list-style: none;
+    padding-left: 0;
+}
+
+nav li{
+    font-size: calc(3px + 3vw);
+    width: 90%;
+    background-color: maroon;
+    padding: 2vh 0;
+    margin: 4vh auto;
+}
+
+nav a{
+    text-decoration: none;
+    color: #D9B382;;
+}
+
+h2 {
+    margin: 2vw 0;
+    text-align: center;
+    font-size: calc(2px + 2vw);
+    color: saddlebrown;
+}
+
+h3 {
+    border-left: saddlebrown 0.5vw solid;
+    padding-left: 0.5vw;
+    margin-top: 4vh;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    background-color: cornsilk;
+}
+
+#content {
+    margin: 0 1vw;
+    font-size: calc(2px + 1.5vw);
+    line-height: calc(2px + 2.3vw);
+}
+
+footer{
+    background-color: #131313;
+    color: #dcdcdc;
+    padding: 1vh 1vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+footer a{
+    color: #dcdcdc;
+}
+
+@media screen and (max-width: 750px) {
+    header {
+        align-items: center;
+    }
+
+    #container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav {
+        width: 100%;
+    }
+
+    nav ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        background-color: saddlebrown;
+    }
+
+    nav li {
+        font-size: calc(2px + 1.5vw);
+        background-color: maroon;
+        padding: 1% .5%;
+        margin: 1% .5%;
+    }
+
+    main {
+        width: 100%;
+        height: 100vh;
+        background-color: cornsilk;
+    }
+
+    main p {
+        margin: 2% 2%;
+        font-size: calc(2px + 2vw);
+    }
+}

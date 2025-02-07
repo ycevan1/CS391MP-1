@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="A website showcasing Yuming Chen's Projects">
+        <link type="text/css" rel="stylesheet" href="projects.css">
+        <title>Projects | Resume</title>
+    </head>
+
+    <body>
+        <div id="page-wrapper">
+            <header>
+                <h1>Yuming Chen</h1>
+                <p>My Online Resume</p>
+            </header>
+
+            <div id="container">
+                <nav>
+                    <ul>
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="../education/education.html">Education</a></li>
+                        <li><a href="../experience/experience.html">Experience</a></li>
+                        <li><a href="../achievements/achievements.html">Achievements</a></li>
+                        <li><a href="../other-skills/other-skills.html">Other Skills</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                    </ul>
+                </nav>
+
+                <main>
+                    <h2>Projects</h2>
+                    <div id="calculator-program">
+                        <h3>Javascript Calculator</h3>
+                        <div id="input-section">
+                            <label id="first-num" for="first-number">First Number:</label><input type="text" id="first-number">
+                            <label id="second-num" for="second-number">Second Number:</label><input type="text" id="second-number">
+                        </div>
+                        <div id="buttons-section">
+                            <button onclick="addition()">+</button>
+                            <button onclick="subtraction()">-</button>
+                            <button onclick="multiplication()">*</button>
+                            <button onclick="division()">/</button>
+                            <button onclick="power()">**</button>
+                            <button onclick="clearNums()">Clear</button>
+                        </div>
+                        <p id="output"></p>
+                    </div>
+                </main>
+            </div>
+
+            <footer>
+                <p>All Rights Reserved by Yuming Chen <a href="">Credits</a> &copy</p>
+            </footer>
+        </div>
+        <script src="project.js"></script>
+    </body>
+</html>
