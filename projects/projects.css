@@ -113,7 +113,7 @@ h2 {
 }
 
 #output {
-    font: bold calc(2px + 3vw) "Courier New", monospace;
+    font: bold calc(2px + 2vw) "Courier New", monospace;
     justify-content: center;
     text-align: center;
     margin: 1vw auto;

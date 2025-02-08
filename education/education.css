@@ -131,4 +131,8 @@ footer a{
         margin: 2% 2%;
         font-size: calc(2px + 2vw);
     }
+
+    main li {
+        font-size: calc(2px + 2vw);
+    }
 }
